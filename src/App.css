@@ -1,9 +1,31 @@
 .App {
-  display: flex;
-  justify-content: space-around;
-  padding: 2%;
   background-image: url("/ressources/chocolate-background.jpg");
   background-position: top right;
   background-repeat: no-repeat;
   background-size: contain;
+  background-color: #F7F7F7;
+}
+
+.containerApp {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 2%;
+}
+
+.descriptionApp {
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.titleDescriptionApp {
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.paraDescriptionApp {
+  font-size: 1.5em;
+}
+
+.containerComponentsApp {
+  display: flex;
+  justify-content: space-around;
 }

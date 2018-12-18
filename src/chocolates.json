@@ -1,26 +1,26 @@
 [
   {
       "id": "1",
-      "name": "Black",
+      "name": "Noir",
       "color": "#2a1b0e",
       "image": "/ressources/black-chocolate.jpg"
   },
   {
       "id": "2",
-      "name": "Milk",
+      "name": "Lait",
       "color": "#825a39",
       "image": "/ressources/milk-chocolate.jpg"
   },
   {
       "id": "3",
-      "name": "Pistachio",
+      "name": "Pistache",
       "color": "#94ac54",
       "image": "/ressources/pistachio.jpg"
   },
   {
       "id": "4",
-      "name": "Raspberry",
+      "name": "Blanc",
       "color": "#ce5871",
-      "image": "/ressources/raspberry.jpg"
+      "image": "/ressources/white-chocolate.jpg"
   }
 ]

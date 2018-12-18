@@ -8,7 +8,7 @@ class ChocolateList extends Component {
   render() {
     return (
       <div className='chocolateList'>
-        <h1>Chocolates</h1>
+        <h2>Chocolats</h2>
         {chocolates.map((item, index) => 
           <Chocolate name={item.name} key={index} />
         )}

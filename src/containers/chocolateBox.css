@@ -1,8 +1,9 @@
 .chocolateBox {
   width: 75%;
-}
-.titleChocolateBox {
-  padding-bottom: 5%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 10%;
 }
 .containerEmplacementChocolat {
   border: 2px solid black;
@@ -17,26 +18,26 @@
   border: 1px solid black;
 }
 
-.emplacementChocolat.Black {
+.emplacementChocolat.Noir {
   background-image: url('/ressources/black-chocolate.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
-.emplacementChocolat.Milk {
+.emplacementChocolat.Lait {
   background-image: url('/ressources/milk-chocolate.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
-.emplacementChocolat.Pistachio {
+.emplacementChocolat.Pistache {
   background-image: url('/ressources/pistachio.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
-.emplacementChocolat.Raspberry {
-  background-image: url('/ressources/raspberry.jpg');
+.emplacementChocolat.Blanc {
+  background-image: url('/ressources/white-chocolate.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
